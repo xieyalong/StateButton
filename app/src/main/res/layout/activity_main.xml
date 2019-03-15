@@ -22,7 +22,15 @@
             android:layout_gravity="center_horizontal"
             android:foreground="?selectableItemBackground"
             android:text="扩展属性测试"/>
-
+        <com.deadline.statebutton.StateButton
+            android:id="@+id/text_test0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="change text color"
+            />
         <com.deadline.statebutton.StateButton
             android:id="@+id/text_test"
             android:layout_width="wrap_content"
